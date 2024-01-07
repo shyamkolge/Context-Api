@@ -1,6 +1,6 @@
-import React from 'react'
+import { createContext } from "react";
 
-// Here we just created an object of context this object will store the informatoin that you want to share 
-const UserContext = React.createContext()
+const UserContex = createContext()
 
-export default UserContext;
+
+export default UserContex;
